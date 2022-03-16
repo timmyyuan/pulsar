@@ -694,7 +694,6 @@
 <tr><td>managedLedgerDefaultWriteQuorum</td><td></td><td>1</td></tr>
 <tr><td>managedLedgerDefaultAckQuorum</td><td></td><td>1</td></tr>
 <tr><td>managedLedgerDigestType</td><td>Default type of checksum to use when writing to BookKeeper.</td><td>CRC32C</td></tr>
-<tr><td>managedLedgerNumWorkerThreads</td><td>Number of threads to be used for managed ledger tasks dispatching.</td><td>8</td></tr>
 <tr><td>managedLedgerNumSchedulerThreads</td><td>Number of threads to be used for managed ledger scheduled tasks.</td><td>8</td></tr>
 <tr><td>managedLedgerCacheSizeMB</td><td></td><td>N/A</td></tr>
 <tr><td>managedLedgerCacheCopyEntries</td><td>Whether to copy the entry payloads when inserting in cache.</td><td>false</td></tr>
@@ -799,8 +798,8 @@
 <tr><td>forwardAuthorizationCredentials</td><td>Forward client authorization credentials to Broker for re-authorization, and make sure authentication is enabled for this to take effect.</td><td>false</td></tr>
 <tr><td>zookeeperServers</td><td>The ZooKeeper quorum connection string (as a comma-separated list)</td><td></td></tr>
 <tr><td>configurationStoreServers</td><td>Configuration store connection string (as a comma-separated list)</td><td></td></tr>
-<tr><td>brokerServiceURL</td><td>The service URL pointing to the broker cluster.</td><td></td></tr>
-<tr><td>brokerServiceURLTLS</td><td>The TLS service URL pointing to the broker cluster</td><td></td></tr>
+<tr><td>brokerServiceURL</td><td>The service URL pointing to the broker cluster. Must begin with <code>pulsar://</code>.</td><td></td></tr>
+<tr><td>brokerServiceURLTLS</td><td>The TLS service URL pointing to the broker cluster. Must begin with <code>pulsar+ssl://</code>.</td><td></td></tr>
 <tr><td>brokerWebServiceURL</td><td>The Web service URL pointing to the broker cluster</td><td></td></tr>
 <tr><td>brokerWebServiceURLTLS</td><td>The TLS Web service URL pointing to the broker cluster</td><td></td></tr>
 <tr><td>functionWorkerWebServiceURL</td><td>The Web service URL pointing to the function worker cluster. It is only configured when you setup function workers in a separate cluster.</td><td></td></tr>
