@@ -154,8 +154,7 @@ To disable the retention policy, you need to set both the size and time limit to
 <p><em>Backlogs</em> are sets of unacknowledged messages for a topic that have been stored by bookies. Pulsar stores all unacknowledged messages in backlogs until they are processed and acknowledged.</p>
 <p>You can control the allowable size and/or time of backlogs, at the namespace level, using <em>backlog quotas</em>. Pulsar uses a quota to enforce a hard limit on the logical size of the backlogs in a topic. Backlog quota triggers an alert policy (for example, producer exception) once the quota limit is reached.</p>
 <p>The diagram below illustrates the concept of backlog quota.
-<img src="/docs/assets/backlog-quota.svg" alt="">
-<img src="/docs/assets/backlog-quota.png" alt=""></p>
+<img src="/docs/assets/backlog-quota.svg" alt=""></p>
 <p>Setting a backlog quota involves setting:</p>
 <ul>
 <li>an allowable <em>size and/or time threshold</em> for each topic in the namespace</li>
