@@ -18,7 +18,7 @@
 #
 
 
-FROM centos:7.6.1810
+FROM centos:7
 
 RUN yum install -y gcc gcc-c++ make \
   protobuf-devel.x86_64 \
