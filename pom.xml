@@ -103,7 +103,7 @@ flexible messaging model and an intuitive client API.</description>
     <testForkCount>4</testForkCount>
     <testRealAWS>false</testRealAWS>
     <testRetryCount>1</testRetryCount>
-    <testJacocoAgentArgument></testJacocoAgentArgument>
+    <testJacocoAgentArgument/>
     <docker.organization>apachepulsar</docker.organization>
     <skipSourceReleaseAssembly>false</skipSourceReleaseAssembly>
     <skipBuildDistribution>false</skipBuildDistribution>
@@ -142,7 +142,7 @@ flexible messaging model and an intuitive client API.</description>
     <typetools.version>0.5.0</typetools.version>
     <protobuf3.version>3.19.2</protobuf3.version>
     <protoc3.version>${protobuf3.version}</protoc3.version>
-    <grpc.version>1.45.1</grpc.version>
+    <grpc.version>1.48.2</grpc.version>
     <google-http-client.version>1.41.0</google-http-client.version>
     <perfmark.version>0.19.0</perfmark.version>
     <protoc-gen-grpc-java.version>${grpc.version}</protoc-gen-grpc-java.version>
@@ -1901,8 +1901,8 @@ flexible messaging model and an intuitive client API.</description>
         <test.additional.args/>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <pulsar.broker.compiler.release></pulsar.broker.compiler.release>
-        <pulsar.client.compiler.release></pulsar.client.compiler.release>
+        <pulsar.broker.compiler.release/>
+        <pulsar.client.compiler.release/>
       </properties>
     </profile>
     <profile>
