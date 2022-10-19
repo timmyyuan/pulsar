@@ -103,7 +103,7 @@ flexible messaging model and an intuitive client API.</description>
     <testForkCount>4</testForkCount>
     <testRealAWS>false</testRealAWS>
     <testRetryCount>1</testRetryCount>
-    <testJacocoAgentArgument></testJacocoAgentArgument>
+    <testJacocoAgentArgument/>
     <docker.organization>apachepulsar</docker.organization>
     <skipSourceReleaseAssembly>false</skipSourceReleaseAssembly>
     <skipBuildDistribution>false</skipBuildDistribution>
@@ -124,7 +124,7 @@ flexible messaging model and an intuitive client API.</description>
     <jetty.version>9.4.44.v20210927</jetty.version>
     <conscrypt.version>2.5.2</conscrypt.version>
     <jersey.version>2.34</jersey.version>
-    <athenz.version>1.10.50</athenz.version>
+    <athenz.version>1.11.13</athenz.version>
     <prometheus.version>0.5.0</prometheus.version>
     <vertx.version>3.9.8</vertx.version>
     <rocksdb.version>6.29.4.1</rocksdb.version>
@@ -1901,8 +1901,8 @@ flexible messaging model and an intuitive client API.</description>
         <test.additional.args/>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <pulsar.broker.compiler.release></pulsar.broker.compiler.release>
-        <pulsar.client.compiler.release></pulsar.client.compiler.release>
+        <pulsar.broker.compiler.release/>
+        <pulsar.client.compiler.release/>
       </properties>
     </profile>
     <profile>
